@@ -7,3 +7,4 @@
 | 12-10-2026 | Test generation | Write pytest tests for the three functions | Copilot used letter grades (A+, B-, D, F) that do not exist in
  my code; 16 of 25 tests failed | Compared the tests with my code, replaced the expected values with the real categories, used exact 8.11 instead of loose approx, re-ran pytest, all 19 passed | Modified | ad180b5 |
 | 12-10-2026 | Debugging | Pasted failing pytest output, asked for cause and fix | Copilot said the weighted sum was divided by number of courses instead of total credits | Injected the bug myself, confirmed pytest failed, applied the fix by hand, re-ran pytest, all 19 passed | Accepted | (hash) |
+| 12-10-2026 | Refactoring | Refactor cgpa.py for readability without changing behaviour | (one sentence on what Copilot changed) | Reviewed the diff, ran Black, Ruff and all 19 tests, ran demo.py, output unchanged | Accepted or Modified | (hash) |
